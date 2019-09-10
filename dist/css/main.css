@@ -256,18 +256,6 @@ main {
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
-    main#home h1 {
-      margin-top: 10vh;
-      font-size: 5rem; }
-    main#about h1 {
-      margin-top: 10vh;
-      font-size: 5rem; }
-    main#work h1 {
-      margin-top: 10vh;
-      font-size: 5rem; }
-    main#contact h1 {
-      margin-top: 10vh;
-      font-size: 5rem; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -296,6 +284,27 @@ main {
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh;
-    font-size: 5rem; }
-  .projects {
+    font-size: 3.5rem; }
+  main#about h1 {
+    margin-top: 10vh;
+    font-size: 3.5rem; }
+  main#work h1 {
+    margin-top: 10vh;
+    font-size: 3.5rem; }
+  main#contact h1 {
+    margin-top: 10vh;
+    font-size: 3.5rem; }
+  main#home h2 {
+    margin-top: 10vh;
+    font-size: 2rem; }
+  main#about h2 {
+    margin-top: 10vh;
+    font-size: 2rem; }
+  main#work h2 {
+    margin-top: 10vh;
+    font-size: 2rem; }
+  main#contact h2 {
+    margin-top: 10vh;
+    font-size: 2rem; }
+  main .projects {
     grid-template-columns: 1fr; } }
