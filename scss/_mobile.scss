@@ -91,10 +91,4 @@
   main .projects {
     grid-template-columns: 1fr;
   }
-
-  @include background {
-    ::after {
-      height: calc(100vh + 5rem);
-    }
-  }
 }
