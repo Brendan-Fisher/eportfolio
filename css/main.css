@@ -112,7 +112,7 @@ body {
       top: 0;
       right: 0;
       width: 100%;
-      height: calc(100vh + 4rem);
+      height: calc(100vh + 2rem);
       z-index: -1;
       background: rgba(68, 68, 68, 0.8); }
 
