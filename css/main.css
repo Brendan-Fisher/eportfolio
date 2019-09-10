@@ -112,10 +112,9 @@ body {
       top: 0;
       right: 0;
       width: 100%;
-      height: 100%;
+      height: 100vh;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.8);
-      background-size: calc(100vh - 4rem); }
+      background: rgba(68, 68, 68, 0.8); }
 
 h1,
 h2,
