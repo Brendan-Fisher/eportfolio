@@ -22,6 +22,23 @@
       line-height: 1;
       margin-bottom: 1rem;
     }
+
+    &#home h1 {
+      margin-top: 10vh;
+      font-size: 5rem;
+    }
+    &#about h1 {
+      margin-top: 10vh;
+      font-size: 5rem;
+    }
+    &#work h1 {
+      margin-top: 10vh;
+      font-size: 5rem;
+    }
+    &#contact h1 {
+      margin-top: 10vh;
+      font-size: 5rem;
+    }
   }
 
   ul.menu-nav,
@@ -70,21 +87,6 @@
 // Smartphones
 @include mediaSm {
   main#home h1 {
-    margin-top: 10vh;
-    font-size: 5rem;
-  }
-
-  main#about h1 {
-    margin-top: 10vh;
-    font-size: 5rem;
-  }
-
-  main#work h1 {
-    margin-top: 10vh;
-    font-size: 5rem;
-  }
-
-  main#contact h1 {
     margin-top: 10vh;
     font-size: 5rem;
   }
