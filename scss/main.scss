@@ -48,6 +48,7 @@ header {
   color: $secondary-color;
 }
 
+// Homepage
 main {
   padding: 4rem;
   // height: 100%;
@@ -72,8 +73,11 @@ main {
       margin-top: 20vh;
     }
   }
+
+  padding-bottom: 2rem;
 }
 
+// About Page
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -85,8 +89,11 @@ main {
   .bio-image {
     grid-area: bioimage;
     margin: auto;
+    width: 250px;
+    height: 250px;
+    background: url("../img/portrait.jpg") no-repeat center;
     border-radius: 50%;
-    border: 3px solid $secondary-color;
+    border: solid 3px $secondary-color;
   }
 
   .bio {
@@ -185,12 +192,48 @@ main {
   color: #333;
 }
 
+// Research and Classes
+.education-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas:
+    "gatorimage about"
+    "research courses";
+  grid-template-columns: repeat(2, 1fr);
+
+  .gator-image {
+    grid-area: gatorimage;
+    margin: auto;
+  }
+
+  .bio {
+    grid-area: bio;
+    font-size: 1.5rem;
+  }
+
+  .research {
+  }
+
+  .courses {
+  }
+
+  .education {
+    background: lighten($primary-color, 5);
+    padding: 0.5rem;
+    border-bottom: $secondary-color 3px solid;
+  }
+}
+
+// Footer
 #main-footer {
+  position: relative;
+  width: 100%;
   text-align: center;
-  padding: 1rem;
-  background: black;
+  background: #444;
   color: set-text-color($primary-color);
   height: 4rem;
+  justify-content: center;
+  padding: 1rem;
 }
 
 @import "mobile";
