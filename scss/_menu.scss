@@ -2,8 +2,8 @@
 .home {
   position: absolute;
   z-index: 3;
-  left: 35px;
-  top: 35px;
+  left: 1.5rem;
+  top: 1.5rem;
   color: set-text-color($primary-color);
   @include easeOut;
   a {
@@ -34,8 +34,8 @@
 .menu-btn {
   position: absolute;
   z-index: 3;
-  right: 35px;
-  top: 35px;
+  right: 1.5rem;
+  top: 1.5rem;
   cursor: pointer;
   @include easeOut;
 
