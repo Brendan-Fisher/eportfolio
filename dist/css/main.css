@@ -356,7 +356,6 @@ main {
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
-    text-align: center;
     margin: auto; }
     main .lg-heading {
       line-height: 1;
@@ -379,7 +378,7 @@ main {
     .menu-branding .portrait {
       width: 150px;
       height: 150px;
-      background: url("/dist/img/portrait_small.jpg") no-repeat center;
+      background: url("../img/portrait_small.jpg") no-repeat center;
       border-radius: 50%;
       border: solid 3px aqua; }
   .about-info {
@@ -414,6 +413,8 @@ main {
       font-size: 3.5rem; }
     main .about-info {
       justify-content: center; }
+      main .about-info .bio {
+        text-align: center; }
   main .projects {
     grid-template-columns: 1fr; }
   .menu .nav-item a {
@@ -421,7 +422,7 @@ main {
   .menu .menu-branding .portrait {
     width: 150px;
     height: 150px;
-    background: url("/dist/img/portrait_small.jpg") no-repeat cover;
+    background: url("../img/portrait_small.jpg") no-repeat cover;
     border-radius: 50%;
     border: solid 3px aqua; }
   .education-info {

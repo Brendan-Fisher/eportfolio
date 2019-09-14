@@ -16,7 +16,7 @@
 @include mediaMd {
   main {
     align-items: center;
-    text-align: center;
+
     margin: auto;
 
     .lg-heading {
@@ -49,7 +49,7 @@
     .portrait {
       width: 150px;
       height: 150px;
-      background: url("/dist/img/portrait_small.jpg") no-repeat center;
+      background: url("../img/portrait_small.jpg") no-repeat center;
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
@@ -110,6 +110,10 @@
 
     .about-info {
       justify-content: center;
+
+      .bio {
+        text-align: center;
+      }
     }
   }
 
@@ -128,7 +132,7 @@
       .portrait {
         width: 150px;
         height: 150px;
-        background: url("/dist/img/portrait_small.jpg") no-repeat cover;
+        background: url("../img/portrait_small.jpg") no-repeat cover;
         border-radius: 50%;
         border: solid 3px $secondary-color;
       }
