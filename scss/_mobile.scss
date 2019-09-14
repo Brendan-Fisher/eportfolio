@@ -124,12 +124,14 @@
       }
     }
 
-    .menu-branding .portrait {
-      width: 150px;
-      height: 150px;
-      background: url("/dist/img/portrait_small.jpg") no-repeat center;
-      border-radius: 50%;
-      border: solid 3px $secondary-color;
+    .menu-branding {
+      .portrait {
+        width: 150px;
+        height: 150px;
+        background: url("/dist/img/portrait_small.jpg") no-repeat cover;
+        border-radius: 50%;
+        border: solid 3px $secondary-color;
+      }
     }
   }
 
