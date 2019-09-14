@@ -1,8 +1,8 @@
 .home {
   position: absolute;
   z-index: 3;
-  left: 35px;
-  top: 35px;
+  left: 1.5rem;
+  top: 1.5rem;
   color: white;
   transition: all 0.5s ease-out; }
   .home a:hover {
@@ -22,8 +22,8 @@
 .menu-btn {
   position: absolute;
   z-index: 3;
-  right: 35px;
-  top: 35px;
+  right: 1.5rem;
+  top: 1.5rem;
   cursor: pointer;
   transition: all 0.5s ease-out; }
   .menu-btn .btn-line {
@@ -202,8 +202,10 @@ main {
     border-radius: 50%;
     border: solid 3px aqua; }
   .about-info .bio {
-    grid-area: bio;
-    font-size: 1.5rem; }
+    grid-area: bio; }
+    .about-info .bio h1 {
+      text-decoration: underline;
+      text-decoration-color: aqua; }
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
@@ -304,13 +306,34 @@ main {
   .education-info .gator-image {
     grid-area: gatorimage;
     margin: auto; }
+  .education-info img {
+    width: 500px;
+    height: auto;
+    padding: 0; }
   .education-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
+  .education-info .about h1 {
+    text-decoration: underline; }
   .education-info .education {
     background: #515151;
     padding: 0.5rem;
     border-bottom: aqua 3px solid; }
+  .education-info .research h3 {
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    color: aqua; }
+  .education-info .research h4 {
+    margin-bottom: 0; }
+  .education-info .courses h3 {
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    color: aqua; }
+  .education-info .courses a {
+    text-decoration: underline;
+    text-decoration-color: aqua; }
 
 #main-footer {
   position: relative;
@@ -333,7 +356,8 @@ main {
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
-    text-align: center; }
+    text-align: center;
+    margin: auto; }
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
@@ -353,30 +377,43 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/portrait_small.jpg") cover center;
       width: 150px;
       height: 150px;
-      background-position-x: center;
-      background-size: 230px; }
+      background: url("/dist/img/portrait_small.jpg") no-repeat center;
+      border-radius: 50%;
+      border: solid 3px aqua; }
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+  .education-info {
+    grid-template-areas: "gatorimage" "about" "research" "courses";
+    grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 500px) {
-  main#home h1 {
-    margin-top: 10vh;
-    font-size: 3.5rem; }
-  main#about h1 {
-    margin-top: 10vh;
-    font-size: 3.5rem; }
-  main#work h1 {
-    margin-top: 10vh;
-    font-size: 3.5rem; }
-  main#contact h1 {
-    margin-top: 10vh;
-    font-size: 3.5rem; }
+  main {
+    justify-content: center; }
+    main#home h1 {
+      margin-top: 10vh;
+      font-size: 3.5rem; }
+    main#about h1 {
+      margin-top: 10vh;
+      font-size: 3.5rem; }
+    main#work h1 {
+      margin-top: 10vh;
+      font-size: 3.5rem; }
+    main#contact h1 {
+      margin-top: 10vh;
+      font-size: 3.5rem; }
+    main#education h1 {
+      margin-top: 10vh;
+      font-size: 3.5rem; }
+    main#journal h1 {
+      margin-top: 10vh;
+      font-size: 3.5rem; }
+    main .about-info {
+      justify-content: center; }
   main .projects {
     grid-template-columns: 1fr; }
   .menu .nav-item a {
@@ -386,4 +423,11 @@ main {
     height: 150px;
     background: url("/dist/img/portrait_small.jpg") no-repeat center;
     border-radius: 50%;
-    border: solid 3px aqua; } }
+    border: solid 3px aqua; }
+  .education-info {
+    justify-content: center; }
+    .education-info img {
+      width: 300px;
+      height: auto; }
+    .education-info .about {
+      text-align: center; } }
