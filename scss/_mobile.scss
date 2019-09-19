@@ -141,4 +141,29 @@
       text-align: center;
     }
   }
+
+  main .journal {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    .post {
+      width: 100%;
+      text-align: center;
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        text-align: left;
+        margin: 0;
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 0.75rem;
+      }
+    }
+  }
 }

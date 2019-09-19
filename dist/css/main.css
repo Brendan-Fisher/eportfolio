@@ -335,6 +335,29 @@ main {
     text-decoration: underline;
     text-decoration-color: aqua; }
 
+.journal {
+  display: grid;
+  grid-gap: 2rem; }
+  .journal .header {
+    background: #444;
+    text-align: center;
+    font-size: 4rem;
+    text-decoration: underline; }
+  .journal .post {
+    padding: 1rem;
+    background: #6a6a6a;
+    border: 3px aqua solid;
+    width: 80%;
+    height: auto;
+    margin: auto; }
+  .journal h1 {
+    color: aqua; }
+  .journal h2 {
+    padding-left: 1rem;
+    color: aqua;
+    background: #5e5e5e;
+    margin: 0; }
+
 #main-footer {
   position: relative;
   width: 100%;
@@ -425,4 +448,19 @@ main {
       width: 300px;
       height: auto; }
     .education-info .about {
-      text-align: center; } }
+      text-align: center; }
+  main .journal {
+    justify-content: center;
+    align-items: center;
+    margin: auto; }
+    main .journal .post {
+      width: 100%;
+      text-align: center; }
+      main .journal .post h1 {
+        font-size: 2rem; }
+      main .journal .post h2 {
+        text-align: left;
+        margin: 0;
+        font-size: 1.5rem; }
+      main .journal .post p {
+        font-size: 0.75rem; } }
