@@ -287,8 +287,13 @@ main {
       text-decoration-color: $secondary-color;
       color: $secondary-color;
     }
+
     h4 {
       margin-bottom: 0;
+    }
+
+    li {
+      list-style: none;
     }
   }
 
@@ -316,6 +321,7 @@ main {
     text-align: center;
     font-size: 4rem;
     text-decoration: underline;
+    visibility: hidden;
   }
 
   .post {
@@ -325,10 +331,6 @@ main {
     width: 80%;
     height: auto;
     margin: auto;
-  }
-
-  h1 {
-    color: $secondary-color;
   }
 
   h2 {
@@ -341,14 +343,8 @@ main {
 
 // Gallery Section
 .photos {
-  .header {
-    background: #444;
-    text-align: center;
-    font-size: 4rem;
-    text-decoration: underline;
-    color: $secondary-color;
-  }
 }
+
 // Footer
 #main-footer {
   position: absolute;
