@@ -287,8 +287,13 @@ main {
       text-decoration-color: $secondary-color;
       color: $secondary-color;
     }
+
     h4 {
       margin-bottom: 0;
+    }
+
+    li {
+      list-style: none;
     }
   }
 
@@ -316,6 +321,7 @@ main {
     text-align: center;
     font-size: 4rem;
     text-decoration: underline;
+    visibility: hidden;
   }
 
   .post {
@@ -327,10 +333,6 @@ main {
     margin: auto;
   }
 
-  h1 {
-    color: $secondary-color;
-  }
-
   h2 {
     padding-left: 1rem;
     color: $secondary-color;
@@ -339,9 +341,13 @@ main {
   }
 }
 
+// Gallery Section
+.photos {
+}
+
 // Footer
 #main-footer {
-  position: relative;
+  position: absolute;
   width: 100%;
   text-align: center;
   background: #444;

@@ -109,6 +109,14 @@
       font-size: 3.5rem;
     }
 
+    .lg-heading {
+      text-align: center;
+    }
+
+    .sm-heading {
+      text-align: center;
+    }
+
     .about-info {
       justify-content: center;
 
@@ -142,6 +150,12 @@
     }
   }
 
+  .courses {
+    ul {
+      padding-left: 0.75rem;
+    }
+  }
+
   main .journal {
     justify-content: center;
     align-items: center;
@@ -158,7 +172,7 @@
       h2 {
         text-align: left;
         margin: 0;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
       }
 
       p {
