@@ -326,8 +326,6 @@ main {
     color: aqua; }
   .education-info .research h4 {
     margin-bottom: 0; }
-  .education-info .research li {
-    list-style: none; }
   .education-info .courses h3 {
     font-weight: 600;
     text-decoration: underline;
@@ -344,8 +342,7 @@ main {
     background: #444;
     text-align: center;
     font-size: 4rem;
-    text-decoration: underline;
-    visibility: hidden; }
+    text-decoration: underline; }
   .journal .post {
     padding: 1rem;
     background: #6a6a6a;
@@ -353,6 +350,8 @@ main {
     width: 80%;
     height: auto;
     margin: auto; }
+  .journal h1 {
+    color: aqua; }
   .journal h2 {
     padding-left: 1rem;
     color: aqua;
@@ -360,7 +359,7 @@ main {
     margin: 0; }
 
 #main-footer {
-  position: absolute;
+  position: relative;
   width: 100%;
   text-align: center;
   background: #444;
@@ -435,10 +434,6 @@ main {
     main#journal h1 {
       margin-top: 10vh;
       font-size: 3.5rem; }
-    main .lg-heading {
-      text-align: center; }
-    main .sm-heading {
-      text-align: center; }
     main .about-info {
       justify-content: center; }
       main .about-info .bio {
@@ -454,8 +449,6 @@ main {
       height: auto; }
     .education-info .about {
       text-align: center; }
-  .courses ul {
-    padding-left: 0.75rem; }
   main .journal {
     justify-content: center;
     align-items: center;
@@ -468,6 +461,6 @@ main {
       main .journal .post h2 {
         text-align: left;
         margin: 0;
-        font-size: 1.25rem; }
+        font-size: 1.5rem; }
       main .journal .post p {
         font-size: 0.75rem; } }
